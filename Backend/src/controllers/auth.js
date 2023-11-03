@@ -28,7 +28,7 @@ const authGoogle = async (req, res) => {
       });
 
       if(patientExist){
-        res.status(200).redirect(`https://psichomatch-xrad.vercel.app/dashboard/${patientExist.id}`);
+        res.status(200).redirect(`https://psicomatch99.vercel.app/dashboard/${patientExist.id}`);
       }else{
         const password = generateRandomPassword();
       
@@ -48,7 +48,7 @@ const authGoogle = async (req, res) => {
 
         main(patientEmail, password);
 
-        res.status(200).redirect(`https://psichomatch-xrad.vercel.app/dashboard/${newPatient.id}`)
+        res.status(200).redirect(`https://psicomatch99.vercel.app/dashboard/${newPatient.id}`)
       }
       
 
