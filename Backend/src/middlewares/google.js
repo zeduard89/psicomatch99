@@ -10,7 +10,7 @@ passport.use("auth-google",
     new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
-    callbackURL: "https://psicomatchapi.onrender.com/auth/google",
+    callbackURL: "https://name-moeq.onrender.com/auth/google",
 },
 
 function(accessToken, refreshToken, profile, done){
